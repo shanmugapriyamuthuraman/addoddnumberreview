@@ -1,0 +1,21 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<script>
+	let b=prompt("enter number")
+		let sum1=0;
+		while(b>0){
+			var rem1=b%10;
+			if(rem1%2==1){
+				sum1=sum1+rem1;
+			}
+			b=(b-rem1)/10;
+		}
+		console.log(sum1);
+	</script>
+</body>
+</html>	
